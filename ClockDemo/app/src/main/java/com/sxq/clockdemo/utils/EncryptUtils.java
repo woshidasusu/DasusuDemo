@@ -12,7 +12,9 @@ import java.security.SecureRandom;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
-import static com.blankj.utilcode.utils.ConvertUtils.*;
+import static com.sxq.clockdemo.utils.ConvertUtils.bytes2HexString;
+import static com.sxq.clockdemo.utils.ConvertUtils.hexString2Bytes;
+
 
 /**
  * <pre>

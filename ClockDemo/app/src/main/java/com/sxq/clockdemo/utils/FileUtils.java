@@ -18,7 +18,8 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.blankj.utilcode.utils.ConstUtils.KB;
+import static com.sxq.clockdemo.utils.ConstUtils.KB;
+
 
 /**
  * <pre>

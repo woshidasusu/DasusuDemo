@@ -2,7 +2,8 @@ package com.sxq.clockdemo.utils;
 
 import java.util.regex.Pattern;
 
-import static com.blankj.utilcode.utils.ConstUtils.*;
+import static com.sxq.clockdemo.utils.ConstUtils.*;
+
 
 /**
  * <pre>

@@ -5,7 +5,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import static com.blankj.utilcode.utils.ConstUtils.*;
+import static com.sxq.clockdemo.utils.ConstUtils.*;
+
 
 /**
  * <pre>
