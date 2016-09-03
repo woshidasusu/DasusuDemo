@@ -12,5 +12,10 @@
 #3、ToolbarDemo  
 这个demo是学习Android 5.0提供了酷炫标题栏效果，涉及的知识点：**AppBarLayout+CollapsingToolbarLayout+Toolbar**
 
-![](./ToolbarDemo/picture/20160531230636321.gif)
+![](./ToolbarDemo/picture/20160531230636321.gif)  
+
+#4、[RotateDrawable](https://github.com/woshidasusu/DasusuDemo/tree/master/RotateDrawable)  
+这个demo学习媒体文件播放，**MediaPlayer**的使用，以及利用属性动画实现TextView的平移，利用补间动画实现碟片及播放杆的旋转。  
+
+![](./RotateDrawable/picture/20160903_134306.gif)
 

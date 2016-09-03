@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/box_handbar"
+    android:visible="true"
+    android:pivotX="80%"
+    android:pivotY="10%"
+    android:toDegrees="0"
+    android:fromDegrees="-30">
+
+</rotate>
