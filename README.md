@@ -30,5 +30,5 @@
 demo主要涉及到的知识点有：调用shell命令执行二进制可执行文件、以及类似文件管理界面  
 
 
-![](./OpenRTSPDemo/picture/20160903_154915.gif)
+![](./OpenRTSPDemo/picture/20160903_160621.gif)
 
