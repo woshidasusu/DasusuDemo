@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widgets_margin_5"
+        android:text="@string/label_rtsp_url"
+        tools:text="rtsp视频流" />
+
+    <LinearLayout
+        android:id="@+id/rtsp_source_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/record_fragment_button_click_selector"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/tv_rtsp_source"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center|right"
+            android:singleLine="true"
+            android:textColor="#000000"
+            tools:text="rtsp://192.sdfasgasgas" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/net_camera_triangle"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widgets_margin_5"
+        android:layout_marginTop="@dimen/widgets_margin_5"
+        android:text="@string/label_resolution"
+        tools:text="分辨率" />
+
+    <com.easiio.openrtspdemo.widget.FlowRadioGroup
+        android:id="@+id/resolution_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2">
+
+            <RadioButton
+                android:id="@+id/resolution_item_qvga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resolution_qvga" />
+
+            <RadioButton
+                android:id="@+id/resolution_item_vga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resolution_vga" />
+
+            <RadioButton
+                android:id="@+id/resolution_item_wxga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resolution_wxga" />
+
+            <RadioButton
+                android:id="@+id/resolution_item_wuxga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resolution_wuxga" />
+        </GridLayout>
+
+    </com.easiio.openrtspdemo.widget.FlowRadioGroup>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/spilt_line"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widgets_margin_5"
+        android:layout_marginTop="@dimen/widgets_margin_5"
+        android:text="@string/label_fps"
+        tools:text="每秒帧数" />
+
+    <RadioGroup
+        android:id="@+id/fps_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/fps_item_15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="@string/fps_15" />
+
+        <RadioButton
+            android:id="@+id/fps_item_30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/fps_30" />
+
+        <RadioButton
+            android:id="@+id/fps_item_60"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="@string/fps_60" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/spilt_line"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widgets_margin_5"
+        android:layout_marginTop="@dimen/widgets_margin_5"
+        android:text="@string/label_video_format"
+        tools:text="视频格式" />
+
+    <RadioGroup
+        android:id="@+id/video_format_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/video_format_item_mp4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="@string/video_format_mp4" />
+
+        <RadioButton
+            android:id="@+id/video_format_item_avi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/video_format_avi" />
+
+        <RadioButton
+            android:id="@+id/video_format_item_mov"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="@string/video_format_mov" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/spilt_line"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widgets_margin_5"
+        android:layout_marginTop="@dimen/widgets_margin_5"
+        android:text="@string/label_record_duration"
+        tools:text="录像时长" />
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_record_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            tools:text="60s"/>
+
+        <SeekBar
+            android:id="@+id/seekbar_record_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="12" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/spilt_line"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/record_fragment_button_click_selector"
+        android:clickable="true"
+        android:focusable="true"
+        tools:text="@string/start_record" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

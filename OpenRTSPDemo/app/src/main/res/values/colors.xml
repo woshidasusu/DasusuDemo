@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_top_bar_color">#f0f9f9f9</color>
+    <color name="bg_top_bar_color_default">#fff9f9f9</color>
+    <color name="top_bar_time_color">#ff808080</color>
+    <color name="top_bar_title_color">#ff004ea2</color>
+    <color name="home_text_color">#fff9f9f9</color>
+    <color name="transparent_full">#00000000</color>
+    <color name="listview_line_color">#ffe0e0e0</color>
+    <color name="item_text_color">#ff303030</color>
+    <color name="home_empty_text_color">#ff808080</color>
+    <color name="bg_dialog_title_color">#ff0bafde</color>
+    <color name="little_gray_color">#ffcacaca</color>
+
+    <color name="white_color">#ffffffff</color>
+    <color name="black_color">#ff000000</color>
+    <!-- jason.yu 2015.06.12 -->
+    <color name="top_bar_background_default">#60000000</color>
+    <color name="top_bar_text_color">#ffffffff</color>
+    <color name="top_bar_search_text_color_nor">#a0ffffff</color>
+    <color name="top_bar_search_text_color_focused">#a0000000</color>
+    <color name="pager_item_text_color_default">#80ffffff</color>
+    <color name="content_text_color_default">#80ffffff</color>
+    <!-- Baker Zhou 2015.6.18 -->
+    <color name="half_white_color">#88ffffff</color>
+
+    <!-- 2015.06.25 jason.yu -->
+    <color name="dialog_text_color">#ffffffff</color>
+    <color name="dialog_widget_text_color_nor">#ffffffff</color>
+    <color name="dialog_widget_text_color_focused">#ff000000</color>
+
+    <!-- 2015.09.01 jason.yu -->
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_60">#9AFFFFFF</color>
+    <color name="white_80">#CDFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_half_transparent">#80FFFFFF</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_60">#9A000000</color>
+    <color name="black_80">#CD000000</color>
+    <color name="black">#FF000000</color>
+    <color name="black_half_transparent">#80000000</color>
+    <color name="blue_60">#9A00A0FF</color>
+    <color name="title_bar_text_color">#C0FFFFFF</color>
+
+    <!-- 2015.09.09 jason.yu -->
+    <color name="menu_text_color">#FFFFFFFF</color>
+
+    <!-- 2015.09.22 baker zhou  -->
+    <color name="net_text_color">#50000000</color>
+
+    <!-- 2015.09.23 baker zhou  -->
+    <color name="bg_page_color_out">#90393228</color>
+    <color name="bg_page_color_in">#e5455a65</color>
+
+    <!-- Baker Zhou 2015.10.13 -->
+    <color name="net_camera_text_color">#50000000</color>
+    <color name="red_60">#90FF0000</color>
+
+    <!-- baker zhou 2015.11.24 -->
+    <color name="contacts_button_bg_selected">#e542555e</color>
+    <color name="contacts_button_bg_nor">#e5263238</color>
+
+    <color name="gray_color">#FFDCDCDC</color>
+</resources>

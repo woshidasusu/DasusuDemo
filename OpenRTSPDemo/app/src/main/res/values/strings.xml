@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">OpenRTSPDemo</string>
+    <string name="exec_btn"> exec </string>
+    <string name="start_record">start record</string>
+    <string name="stop_record">stop record</string>
+    
+    <!--2016.7.28 johnny.su  resolution-->
+    <string name="resolution_qvga">QVGA(320x240)</string>
+    <string name="resolution_vga">VGA(640x480)</string>
+    <string name="resolution_wxga">WXGA(1280x720)</string>
+    <string name="resolution_wuxga">WUXGA(1920x1080)</string>
+
+    <!--2016.7.28 johnny.su  fps-->
+    <string name="fps_15">15fps</string>
+    <string name="fps_30">30fps</string>
+    <string name="fps_60">60fps</string>
+
+    <!--2016.7.28 johnny.su  video format-->
+    <string name="video_format_mp4">.mp4</string>
+    <string name="video_format_avi">.avi</string>
+    <string name="video_format_mov">.mov</string>
+
+    <!--2016.7.28 johnny.su  label-->
+    <string name="label_rtsp_url">rtsp视频流</string>
+    <string name="label_resolution">分辨率</string>
+    <string name="label_fps">每秒帧数</string>
+    <string name="label_video_format">视频格式</string>
+    <string name="label_record_duration">录像时长</string>
+
+    <!--2016.7.29 johnny.su-->
+    <string name="layout_bottom_button_record">录像</string>
+    <string name="layout_bottom_button_video">视频</string>
+
+    <!--2016.7.29 johnny.su-->
+    <string name="network_unavailable">网络不可用</string>
+
+    <!--2016.8.2-->
+    <string name="edit_top_button_cancle">取消</string>
+    <string name="edit_top_textview_message">已选中%1$s项</string>
+    <string name="edit_top_button_select_all">全选</string>
+    <string name="edit_top_button_cancle_all">全不选</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_2"
+    android:background="@drawable/video_fragment_item_click_selector"
+    android:layout_margin="@dimen/widgets_margin_8">
+
+    <ImageView
+        android:id="@+id/img_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/video_defauly"
+        app:layout_heightPercent="15%sh" />
+
+    <TextView
+        android:id="@+id/tv_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_video"
+        android:background="@color/black_60"
+        android:gravity="center"
+        android:textColor="@color/white"
+        tools:text="2016-07-29-125639.mp4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/video_fragment_item_select_selector"/>
+
+</com.zhy.android.percent.support.PercentRelativeLayout>
