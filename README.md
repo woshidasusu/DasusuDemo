@@ -17,5 +17,11 @@
 #4、[RotateDrawable](https://github.com/woshidasusu/DasusuDemo/tree/master/RotateDrawable)  
 这个demo学习媒体文件播放，**MediaPlayer**的使用，以及利用属性动画实现TextView的平移，利用补间动画实现碟片及播放杆的旋转。  
 
-![](./RotateDrawable/picture/20160903_134306.gif)
+![](./RotateDrawable/picture/20160903_134306.gif)  
+
+#5、[WhiteBoardDemo](https://github.com/woshidasusu/DasusuDemo/tree/master/WhiteBoardDemo)  
+这是一个白板demo，类似于画图工具一样，提供一张白纸，可以上面画画、写字、缩放、移动、以及多设备协作等功能。  
+主要涉及的知识点是手势的获取、判断及处理，比如有滑动手势，有缩放手势，有单指，有双指等，这些都需要自己来进行处理相关操作。 
+
+![](./WhiteBoardDemo/picture/20160714_121545.gif) 
 
