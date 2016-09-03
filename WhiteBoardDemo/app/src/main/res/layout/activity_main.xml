@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    tools:context="com.sxq.whiteboarddemo.MainActivity">
+
+    <com.sxq.whiteboarddemo.whiteboard.WhiteBoardView
+        android:id="@+id/whiteboard_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_whiteborad"/>
+
+    <LinearLayout
+        android:id="@+id/layout_tool"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <com.sxq.whiteboarddemo.widget.ConfigurableFAB
+            android:id="@+id/imgbtn_pen"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/pen_normal_selector" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_color"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/color_selector" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_eraser"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/eraser_normal_selector" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_undo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/undo_selector" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_redo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/redo_selector" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_enable"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/disable_selector"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_toRightOf="@+id/layout_tool"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.sxq.whiteboarddemo.widget.PenConfigView
+            android:id="@+id/pen_config_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_zoomin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:text="+"/>
+        <Button
+            android:id="@+id/btn_zoomout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:text="-"/>
+    </LinearLayout>
+</RelativeLayout>
