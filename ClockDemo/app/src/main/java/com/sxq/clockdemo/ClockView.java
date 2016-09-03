@@ -181,7 +181,9 @@ public class ClockView extends View{
                 result = Math.min(specSize, result);
             }
         }
+        String s;
         return result;
     }
+    String s;
 
 }

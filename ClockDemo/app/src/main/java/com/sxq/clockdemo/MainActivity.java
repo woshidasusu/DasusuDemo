@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         //TODO
 
     }
+    String s;
 
 }
