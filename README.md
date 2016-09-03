@@ -7,4 +7,9 @@
 #2、ClockDemo  
 这个demo是一个基本的自定义view的学习  
 
-![](./ClockDemo/picture/20160903_123450.gif)
+![](./ClockDemo/picture/20160903_123450.gif)  
+
+#3、ToolbarDemo  
+这个demo是学习Android 5.0提供了酷炫标题栏效果，涉及的知识点：**AppBarLayout+CollapsingToolbarLayout+Toolbar**
+
+![](./ToolbarDemo/picture/20160531230636321.gif)
