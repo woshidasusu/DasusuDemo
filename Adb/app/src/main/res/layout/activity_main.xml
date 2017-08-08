@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.dasu.adb.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_main_start_adb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="开启wifi调试端口"
+        />
+
+    <Button
+        android:id="@+id/btn_main_stop_abd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭端口"/>
+
+    <TextView
+        android:id="@+id/tv_main_cmd_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
