@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\wangsuCodes\\Demo\\Adb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\wangsuCodes\\Demo\\Adb\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\wangsuCodes\\Demo\\Adb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\wangsuCodes\\Demo\\Adb\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    }
+]

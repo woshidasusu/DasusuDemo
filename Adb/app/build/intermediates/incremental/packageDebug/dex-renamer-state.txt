@@ -1,0 +1,7 @@
+#Tue Aug 08 12:28:10 CST 2017
+base.0=C\:\\wangsuCodes\\Demo\\Adb\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2358a58159ddbb9da3f0c470c16273553e28b7d8
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\wangsuCodes\\Demo\\Adb\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_214d0fc0e2b1ed431985e5f776fa7cc6b0c56d56\\classes.dex
+base.1=C\:\\wangsuCodes\\Demo\\Adb\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_214d0fc0e2b1ed431985e5f776fa7cc6b0c56d56
+file.0=C\:\\wangsuCodes\\Demo\\Adb\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2358a58159ddbb9da3f0c470c16273553e28b7d8\\classes.dex
